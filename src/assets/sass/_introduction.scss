@@ -1,0 +1,58 @@
+#introduction {
+    padding: 100px 0px;
+    background-image: url(../images/banner-bg-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .text-part {
+        h6 {
+            padding-top: 90px;
+            color: #A362E3;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        h2 {
+            font-size: 62px;
+            line-height: 1.22em;
+            font-weight: 700;
+            color: #222222;
+
+            span {
+                color: #3b368c;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 24px;
+            color: rgb(24, 25, 26);
+            padding: 10px 0px 20px;
+        }
+
+        a {
+            border-radius: 40px;
+            padding: 15px 50px;
+            font-weight: 600;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            transition: all linear .2s;
+            color: white;
+            background: -webkit-linear-gradient(-65deg, #c165dd 0, #1153fc 100%);
+            position: absolute;
+
+            &:hover {
+                box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+
+}

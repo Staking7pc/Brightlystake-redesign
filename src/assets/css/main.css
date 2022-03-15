@@ -1,0 +1,180 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 99;
+  height: 120px;
+  box-shadow: 6px 8px 15px rgba(59, 61, 191, 0.05);
+  backdrop-filter: blur(30px); }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500; }
+    .navbar .navbar-brand img {
+      margin-right: 10px; }
+    .navbar .navbar-brand:hover {
+      color: #fff; }
+  .navbar .nav-link {
+    color: #fff !important;
+    margin: 0px 16px;
+    line-height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 !important;
+    position: relative; }
+    .navbar .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 3px;
+      background-color: #fff;
+      bottom: 10px;
+      left: 0;
+      transition: all 0.3s; }
+    .navbar .nav-link:hover::after {
+      width: 90%; }
+  .navbar .contact-btn {
+    background-color: #fff;
+    color: #2c2c2c !important;
+    height: 50px;
+    width: 130px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    margin-top: 5px;
+    transition: all linear .3s; }
+    .navbar .contact-btn::after {
+      height: 0; }
+    .navbar .contact-btn:hover {
+      background-color: transparent;
+      color: #fff !important;
+      border: 2px solid #fff; }
+
+.navbar-expand-lg .navbar-nav {
+  padding: 15px 20px; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  background: #FFFFFF;
+  border-radius: 20px; }
+
+#banner {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0px 100px; }
+  #banner .banner-logo {
+    animation: banner-logo-spin infinite 20s linear; }
+@keyframes banner-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+  #banner h2 {
+    padding-top: 40px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff; }
+  #banner .icons li {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; }
+    #banner .icons li svg {
+      color: #fff;
+      font-size: 26px;
+      margin: 30px 12px;
+      cursor: pointer;
+      transition: all linear .3s; }
+      #banner .icons li svg:hover {
+        color: skyblue; }
+
+#introduction {
+  padding: 100px 0px; }
+  #introduction .text-part h6 {
+    padding-top: 60px;
+    color: #484d53;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700; }
+  #introduction .text-part h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #2c2c2c; }
+  #introduction .text-part p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #18191a;
+    padding: 10px 0px 30px; }
+  #introduction .text-part a {
+    border-radius: 5px;
+    background: #4b59f7;
+    padding: 12px 50px;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #4b59f7;
+    transition: all linear .3s; }
+    #introduction .text-part a:hover {
+      background-color: transparent;
+      color: #4b59f7;
+      border: 2px solid #4b59f7; }
+  #introduction img {
+    width: 100%; }
+
+#cards {
+  padding: 100px 0; }
+  #cards .card-box {
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #e7e7e7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin-bottom: 30px; }
+    #cards .card-box .img-box {
+      height: 150px;
+      margin-bottom: 30px; }
+      #cards .card-box .img-box img {
+        width: 65%; }
+    #cards .card-box a {
+      border-radius: 5px;
+      background: #4b59f7;
+      padding: 8px 15px;
+      font-weight: 400;
+      color: white;
+      font-size: 12px;
+      margin-right: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      border: 1px solid #4b59f7;
+      transition: all linear .3s; }
+      #cards .card-box a:hover {
+        color: #4b59f7;
+        background-color: transparent;
+        border: 1px solid #4b59f7; }
+
+#offer {
+  padding: 100px 0;
+  background-color: #d9d9fd; }
+
+#footer {
+  background: #0873D7;
+  box-shadow: 0px -7px 15px rgba(34, 34, 34, 0.05); }
+  #footer p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 0px; }
+
+/*# sourceMappingURL=main.css.map */

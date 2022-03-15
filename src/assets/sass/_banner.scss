@@ -1,0 +1,54 @@
+#banner {
+    // height: 700px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0px 100px;
+
+
+    .banner-logo {
+        animation: banner-logo-spin infinite 20s linear;
+    }
+
+    @keyframes banner-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    h2 {
+        padding-top: 40px;
+        font-size: 46px;
+        font-weight: 700;
+        color: #222222;
+
+        span{
+            color: #3b368c;
+        }
+    }
+
+    .icons {
+        li {
+            display: inline-block;
+            text-decoration: none;
+
+            svg {
+                color: #222222;
+                font-size: 42px;
+                margin: 30px 12px;
+                cursor: pointer;
+                transition: all linear .3s;
+
+                &:hover {
+                    color: #e76f51;
+                }
+            }
+        }
+    }
+}

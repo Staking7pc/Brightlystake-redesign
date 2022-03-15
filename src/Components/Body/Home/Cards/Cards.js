@@ -1,0 +1,267 @@
+import React from "react";
+import axelar from "../../../../assets/images/Axelar.png";
+import casper from "../../../../assets/images/Casper.png";
+import moonbeam from "../../../../assets/images/Moonbeam.png";
+import moonriver from "../../../../assets/images/moonriver.png";
+import marin from "../../../../assets/images/Marlin.png";
+import medibloc from "../../../../assets/images/medibloc.png";
+import Bitcanna from "../../../../assets/images/bitcanna.png";
+import Cere from "../../../../assets/images/cere.png";
+import cheqd from "../../../../assets/images/cheqd.png";
+import xx from "../../../../assets/images/xx.png";
+import polkadex from "../../../../assets/images/polkadex.png";
+import rizon from "../../../../assets/images/rizon.png";
+
+
+const Cards = () => {
+  return (
+    <div>
+      <section id="cards">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 text-center card-header">
+              <h2>We operate in these <span>ecosystems</span> </h2>
+              <p>
+                We also run nodes exclusively for people with enough tokens/coin
+              </p>
+            </div>
+          </div>
+          <div className="row ">
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Axelar</h4>
+                <img className="small" src={axelar}></img>
+                <p>Axelar is a decentralized interoperability network connecting all blockchains</p>
+                <ul>
+                  <li>
+                    <a href="https://axelarscan.io/validator/axelarvaloper1kkrp9ulfea5klffr7yjk0lat2yuxystgfzg6zu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Bitcanna</h4>
+                <img src={Bitcanna}></img>
+                <p>BitCanna aims to become the global digital ancillary platform for the cannabis industry </p>
+                <ul>
+                  <li>
+                    <a href="https://www.mintscan.io/bitcanna/validators/bcnavaloper1hg0umsxg547w8xc4aq3l5yn9z9r3cneklvqq0u" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Casper</h4>
+                <img src={casper}></img>
+                <p>Casper is an open source blockchain optimized for enterprise and developer adoption </p>
+                <ul>
+                  <li>
+                    <a href="https://cspr.live/validator/0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Cere Network</h4>
+                <img src={Cere}></img>
+                <p>Cere helps media enterprises to improve long term user retention and content engagement </p>
+                <ul>
+                  <li>
+                    <a href="https://stats.cere.network/validator/5GLVPP25cQSMdP5GNLpL88niXkxyVAXFddZsqGeuGnW1TbyX" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Cheqd</h4>
+                <img src={cheqd}></img>
+                <p>Cheqd enables individuals and organisations to fully control their personal data </p>
+                <ul>
+                  <li>
+                    <a href="https://explorer.cheqd.io/validators/cheqdvaloper1a5kj47vhvffxxp4njvx5yeegx73gpurpsg35w8" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Marlin</h4>
+                <img src={marin}></img>
+                <p>An open protocol that provides a high-performance programmable network infrastructure for Web 3.0</p>
+                <ul>
+                  <li>
+                    <a href="https://arb1.marlin.org/relay/operator" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Medibloc</h4>
+                <img src={medibloc}></img>
+                <p>Medibloc is a digital healthcare company aims to build a patient-centric healthcare data platform</p>
+                <ul>
+                  <li>
+                    <a href="https://www.mintscan.io/medibloc/validators/panaceavaloper1w3ze2ulad0jq7zcps7kdwsadhlh9mc27nqt8du" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>            
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Moonbeam</h4>
+                <img src={moonbeam}></img>
+                <p>Moonbeam makes it easy to build natively interoperable blockchain applications</p>
+                <ul>
+                  <li>
+                    <a href="https://moonbeam.subscan.io/validator/0x7fA2033272db2E4116CE314fd789A3A148F2Ed55" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Moonriver</h4>
+                <img src={moonriver}></img>
+                <p>Moonriver provides a permanently incentivized canary network to Moonbeam</p>
+                <ul>
+                  <li>
+                    <a href="https://moonriver.subscan.io/validator/0xbd7562319f1f0fd658e0cc4af5970ea45946b08f" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Polkadex</h4>
+                <img src={polkadex}></img>
+                <p>Polkadex is a peer to peer orderbook-based exchange for the DeFi ecosystem built on Substrate </p>
+                <ul>
+                  <li>
+                    <a href="https://polkadex.subscan.io/validator/espoqJqnCyPZ6von8c9hSRTSY2iQLHMueUZye1vCdHQAF8xUp" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Rizon</h4>
+                <img src={rizon}></img>
+                <p>Rizon utilizes Tendermint and IBC Protocol to enable optimal business scalability and usability </p>
+                <ul>
+                  <li>
+                    <a href="https://www.mintscan.io/rizon/validators/rizonvaloper1lgvkm09x8fkpxlg0djwauk3e6lfhcy58ssfdps" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">XX network</h4>
+                <img src={xx}></img>
+                <p>XX network is the first and only quantum-resistant and privacy-focused blockchain ecosystem </p>
+                <ul>
+                  <li>
+                    <a href="https://explorer.xx.network/#/staking/query/6XnaoF3HVosxMb9ZF29prgCLk9Wgk94u2UYVop9SQgJjvwrt" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+           
+
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Cards;

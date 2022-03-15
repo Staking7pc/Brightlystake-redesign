@@ -1,0 +1,285 @@
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        line-height: 93px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        padding: 15px 20px;
+        box-shadow: 6px 8px 15px rgba(59, 61, 191, 0.05);
+        background-color: rgba(255, 255, 255, 0.774);
+        backdrop-filter: blur(30px);
+    }
+
+    .navbar .contact-btn {
+        margin-top: 15px;
+    }
+
+    #banner {
+        img {
+            width: 65%;
+        }
+    }
+
+    #introduction {
+        .text-part {
+            h6 {
+                padding-top: 0px;
+            }
+
+            h2 {
+                font-size: 52px;
+                line-height: 1.22em;
+                font-weight: 700;
+                color: #222222;
+            }
+        }
+    }
+
+    #offer h5 {
+        margin-bottom: 0px;
+    }
+
+
+
+    #offer {
+        h2 {
+            font-size: 42px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            z-index: 99;
+            display: none;
+        }
+
+        .carousel-control-next {
+            right: 0;
+            z-index: 99;
+            display: none;
+        }
+    }
+
+    #video {
+        padding: 50px 0;
+
+        h2 {
+            font-size: 42px;
+        }
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+
+    #blog {
+        padding: 100px 0;
+
+        h2 {
+            font-size: 42px;
+        }
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+}
+
+/*======== small device =========*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        line-height: 93px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        padding: 15px 20px;
+        box-shadow: 6px 8px 15px rgba(59, 61, 191, 0.05);
+        background-color: rgba(255, 255, 255, 0.774);
+        backdrop-filter: blur(30px);
+    }
+
+    .navbar .contact-btn {
+        margin-top: 15px;
+    }
+
+    #banner {
+        img {
+            width: 60%;
+        }
+    }
+
+    #introduction .text-part {
+        padding-bottom: 100px;
+        padding-left: 20px;
+
+        h6 {
+            padding-top: 0px;
+        }
+    }
+
+    #offer {
+        .text-box {
+            padding: 30px 0px 100px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            z-index: 99;
+            display: none;
+        }
+
+        .carousel-control-next {
+            right: 0;
+            z-index: 99;
+            display: none;
+        }
+    }
+
+    #video {
+        padding: 50px 0;
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+
+    #blog {
+        padding: 50px 0;
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+}
+
+/*======== Extra small device =========*/
+
+@media (max-width: 575.98px) {
+    .navbar {
+        line-height: 93px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        padding: 15px 20px;
+        box-shadow: 6px 8px 15px rgba(59, 61, 191, 0.05);
+        background-color: rgba(255, 255, 255, 0.774);
+        backdrop-filter: blur(30px);
+    }
+
+    .navbar .contact-btn {
+        margin-top: 15px;
+    }
+
+    #banner {
+        img {
+            width: 60%;
+        }
+    }
+
+    #introduction .text-part {
+        padding-bottom: 100px;
+        padding-left: 20px;
+
+        h6 {
+            padding-top: 0px;
+        }
+    }
+
+    #offer {
+        .text-box {
+            padding: 30px 0px 100px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            z-index: 99;
+            display: none;
+        }
+
+        .carousel-control-next {
+            right: 0;
+            z-index: 99;
+            display: none;
+        }
+    }
+
+    #video {
+        padding: 50px 0;
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+
+    #blog {
+        padding: 50px 0;
+
+        .text-part {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+}
