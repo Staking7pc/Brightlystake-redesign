@@ -243,7 +243,7 @@ const Cards = () => {
                 <p>XX network is the first and only quantum-resistant and privacy-focused blockchain ecosystem </p>
                 <ul>
                   <li>
-                    <a href="https://explorer.xx.network/#/staking/query/6XnaoF3HVosxMb9ZF29prgCLk9Wgk94u2UYVop9SQgJjvwrt" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://dashboard.xx.network/nodes/_p9HuEbJbJOKudgJLIHloaBrbAmbKg6C_8tyy-seN9wC" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>

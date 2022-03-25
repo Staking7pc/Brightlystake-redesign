@@ -1,8 +1,7 @@
 import React from "react";
 import Bootstrap from "bootstrap";
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
-import Logo from "../../assets/images/logo.png"
-
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import footer from '../Footer/Footer'
 const Header = () => {
   return (
     <div>
@@ -12,9 +11,11 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              {/* <Nav.Link href="#home">Home</Nav.Link>
+              {/* <Nav.Link href="#home">Blog</Nav.Link>
               <Nav.Link href="#link">Validator Nodes</Nav.Link> */}
-              <Nav.Link href="#" className="contact-btn">Contact Us</Nav.Link>
+              <Nav.Link href="#footer" className="contact-btn">
+                Contact Us
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

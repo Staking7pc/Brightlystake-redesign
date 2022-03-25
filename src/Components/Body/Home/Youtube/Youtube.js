@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import marlin from "../../../../assets/images/Marlin-big.png";
 import moonbeam from "../../../../assets/images/Moonbeam-big.png";
 import search from "../../../../assets/images/search.png";
+import axelar from "../../../../assets/images/Axelar.png";
 
 const Offer = () => {
   const [index, setIndex] = useState(0);
@@ -17,23 +18,25 @@ const Offer = () => {
           <div className="row">
             <Carousel activeIndex={index} onSelect={handleSelect}>
               <Carousel.Item>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6">
-                    <div className="img-box">
-                      <img src={marlin} alt="Third slide" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="text-box">
-                      <h5>Marlin Protocol</h5>
-                      <h2>MARLIN HISTORIC STATS FOR OPERATORS</h2>
-                      <p>We worked with Marlin protocols team to integrate our historic stats page for every operator which is a useful tool which provides historic info on performance and returns. You can access the stats symbol from the official site for Marlin operators</p>
-                      <a href="https://marlin.brightlystake.com/analytics/0xbc47f4ae5c9dcbd422f80a7528c3f7dbd0ab5e63" target="_blank" rel="noopener noreferrer" className="know-btn">
-                        Link to site
-                      </a>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Axelar</h4>
+                <img className="small" src={axelar}></img>
+                <p>Axelar is a decentralized interoperability network connecting all blockchains</p>
+                <ul>
+                  <li>
+                    <a href="https://axelarscan.io/validator/axelarvaloper1kkrp9ulfea5klffr7yjk0lat2yuxystgfzg6zu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="row">
