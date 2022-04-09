@@ -5,7 +5,7 @@ import moonbeam from "../../../../assets/images/Moonbeam.png";
 import moonriver from "../../../../assets/images/moonriver.png";
 import marin from "../../../../assets/images/Marlin.png";
 import medibloc from "../../../../assets/images/medibloc.png";
-import Bitcanna from "../../../../assets/images/bitcanna.png";
+import kusama from "../../../../assets/images/kusama.png";
 import Cere from "../../../../assets/images/cere.png";
 import cheqd from "../../../../assets/images/cheqd.png";
 import xx from "../../../../assets/images/xx.png";
@@ -35,25 +35,6 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://axelarscan.io/validator/axelarvaloper1kkrp9ulfea5klffr7yjk0lat2yuxystgfzg6zu" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Bitcanna</h4>
-                <img src={Bitcanna}></img>
-                <p>BitCanna aims to become the global digital ancillary platform for the cannabis industry </p>
-                <ul>
-                  <li>
-                    <a href="https://www.mintscan.io/bitcanna/validators/bcnavaloper1hg0umsxg547w8xc4aq3l5yn9z9r3cneklvqq0u" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
@@ -111,6 +92,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://explorer.cheqd.io/validators/cheqdvaloper1a5kj47vhvffxxp4njvx5yeegx73gpurpsg35w8" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Kusama</h4>
+                <img src={kusama}></img>
+                <p>Kusama is a scalable network of specialized blockchains built using Substrate </p>
+                <ul>
+                  <li>
+                    <a href="https://kusama.subscan.io/waiting/DPyccDy3aecJqo2DTpFUFpnQAeaSEj9hbrpEzUSJnScAXpR" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
