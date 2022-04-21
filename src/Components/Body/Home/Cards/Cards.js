@@ -46,6 +46,25 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
+             <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Calamari</h4>
+                <img src={casper}></img>
+                <p>Calamari Network is a private layer built for the entire Kusama ecosystem</p>
+                <ul>
+                  <li>
+                    <a href="https://sparta.calamari.systems/dmx7NaUig7rdhwTJcnj6VPFaeou4KsvTqkMTcvHz25LcZtNrT" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Casper</h4>
