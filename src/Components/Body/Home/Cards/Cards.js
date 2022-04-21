@@ -1,6 +1,7 @@
 import React from "react";
 import axelar from "../../../../assets/images/Axelar.png";
 import casper from "../../../../assets/images/Casper.png";
+import calamari from "../../../../assets/images/Calamari.png";
 import moonbeam from "../../../../assets/images/Moonbeam.png";
 import moonriver from "../../../../assets/images/moonriver.png";
 import marin from "../../../../assets/images/Marlin.png";
@@ -49,7 +50,7 @@ const Cards = () => {
              <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Calamari</h4>
-                <img src={casper}></img>
+                <img src={calamari}></img>
                 <p>Calamari Network is a private layer built for the entire Kusama ecosystem</p>
                 <ul>
                   <li>
