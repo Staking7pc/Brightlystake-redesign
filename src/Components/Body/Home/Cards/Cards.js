@@ -11,7 +11,7 @@ import Cere from "../../../../assets/images/cere.png";
 import cheqd from "../../../../assets/images/cheqd.png";
 import xx from "../../../../assets/images/xx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
-import rizon from "../../../../assets/images/rizon.png";
+import tgrade from "../../../../assets/images/tgrade.png";
 
 
 const Cards = () => {
@@ -239,12 +239,12 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Rizon</h4>
-                <img src={rizon}></img>
-                <p>Rizon utilizes Tendermint and IBC Protocol to enable optimal business scalability and usability </p>
+                <h4 className="card-title">Tgrade</h4>
+                <img src={tgrade}></img>
+                <p>Tgrade helps create on-chain financial instruments for self-soverign groups</p>
                 <ul>
                   <li>
-                    <a href="https://www.mintscan.io/rizon/validators/rizonvaloper1lgvkm09x8fkpxlg0djwauk3e6lfhcy58ssfdps" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://tgrade.aneka.io/validators/tgrade154cvfyu85tduekt60ga8ydc45lc76w7yy6935n" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
