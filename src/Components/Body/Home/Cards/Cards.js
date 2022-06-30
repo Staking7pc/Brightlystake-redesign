@@ -12,6 +12,7 @@ import cheqd from "../../../../assets/images/cheqd.png";
 import xx from "../../../../assets/images/xx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
+import zeitgeist from "../../../../assets/images/zeitgeist.png";
 
 
 const Cards = () => {
@@ -270,6 +271,25 @@ const Cards = () => {
                   <li>
                     <a href="#" className="btn-two">
                       More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Zeitgeist</h4>
+                <img src={zeitgeist}></img>
+                <p>Zeitgeist is an evolving blockchain for prediction markets and futarchy.</p>
+                <ul>
+                  <li>
+                    <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fzeitgeist-rpc.dwellir.com#/explorer" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                    More info
                     </a>
                   </li>
                 </ul>
