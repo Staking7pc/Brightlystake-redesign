@@ -283,7 +283,7 @@ const Cards = () => {
                 <p>Zeitgeist is an evolving blockchain for prediction markets and futarchy.</p>
                 <ul>
                   <li>
-                    <a href="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fzeitgeist-rpc.dwellir.com#/explorer" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://zeitgeist.subscan.io/account/dE2sXU3pwfeaDvJY13wo5WSRmt4wqWMZSsu7T5dEQdqUZcFr3" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
