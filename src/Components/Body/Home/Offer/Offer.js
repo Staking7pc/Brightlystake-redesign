@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import marlin from "../../../../assets/images/Marlin-big.png";
 import moonbeam from "../../../../assets/images/Moonbeam-big.png";
 import search from "../../../../assets/images/search.png";
+import Zeitgeist from "../../../../assets/images/zeitgeist-big.png";
+
 
 const Offer = () => {
   const [index, setIndex] = useState(0);
@@ -45,7 +47,7 @@ const Offer = () => {
                   <div className="col-lg-6 col-md-6">
                     <div className="text-box">
                       <h5>Moonbeam Network</h5>
-                      <h2>COLLATOR DASHBOARD</h2>
+                      <h2>COLLATOR STATS</h2>
                       <p>We have self provided dashboard for collators and delegators to do analysis on collators performance. Informations such as historic information on blocks produced each day by collators and list of revokes/decreases from delegators on each collator is also presented for folks to analyse. Also, delegators can see all the collators they have delegated along with their realized apy's for the past 4 rounds.</p>
                       <a href="https://moonbeam.brightlystake.com/moonbeam/Dashboard" target="_blank" rel="noopener noreferrer" className="know-btn">
                         Link to site
@@ -54,6 +56,25 @@ const Offer = () => {
                   </div>
                 </div>
               </Carousel.Item>
+              <Carousel.Item>
+                <div className="row">
+                  <div className="col-lg-6 col-md-6">
+                    <div className="img-box">
+                      <img src={Zeitgeist} alt="Third slide" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6">
+                    <div className="text-box">
+                      <h5>Zeitgeist</h5>
+                      <h2>COLLATOR STATS</h2>
+                      <p>We have self provided dashboard for collators and delegators to do analysis on collators performance. Informations such as historic information on blocks produced each day by collators and list of revokes/decreases from delegators on each collator is also presented for folks to analyse.</p>
+                      <a href="https://collatorstats.brightlystake.com/zeitgeist" target="_blank" rel="noopener noreferrer" className="know-btn">
+                        Link to site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </Carousel.Item>              
               <Carousel.Item>
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
