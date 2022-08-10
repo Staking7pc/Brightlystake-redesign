@@ -105,25 +105,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Cheqd</h4>
-                <img src={cheqd}></img>
-                <p>Cheqd enables individuals and organisations to fully control their personal data </p>
-                <ul>
-                  <li>
-                    <a href="https://explorer.cheqd.io/validators/cheqdvaloper1a5kj47vhvffxxp4njvx5yeegx73gpurpsg35w8" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Kusama</h4>
