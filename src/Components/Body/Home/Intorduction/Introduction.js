@@ -1,6 +1,5 @@
 import React from "react";
 import Intro from "../../../../assets/images/Vector.png"
-import footer from '../../../Footer/Footer'
 
 const Introduction = () => {
   return (

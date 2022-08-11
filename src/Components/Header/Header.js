@@ -16,6 +16,9 @@ const Header = () => {
               <Nav.Link href="#footer" className="contact-btn">
                 Contact Us
               </Nav.Link>
+              <Nav.Link href="https://docs.brightlystake.com" className="contact-btn">
+                Docs
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
