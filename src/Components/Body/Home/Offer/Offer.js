@@ -4,6 +4,8 @@ import marlin from "../../../../assets/images/Marlin-big.png";
 import moonbeam from "../../../../assets/images/Moonbeam-big.png";
 import search from "../../../../assets/images/search.png";
 import Zeitgeist from "../../../../assets/images/zeitgeist-big.png";
+import axelar from "../../../../assets/images/Axelar.png";
+
 
 
 const Offer = () => {
@@ -74,7 +76,26 @@ const Offer = () => {
                     </div>
                   </div>
                 </div>
-              </Carousel.Item>              
+              </Carousel.Item>     
+              <Carousel.Item>
+                <div className="row">
+                  <div className="col-lg-6 col-md-6">
+                    <div className="img-box">
+                      <img src={Zeitgeist} alt="Third slide" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6">
+                    <div className="text-box">
+                      <h5>AXELAR</h5>
+                      <h2>VALIDATOR STATS</h2>
+                      <p>We have a dashboard explaining how staking works in Axelar and the various factors that affect the returns for a delegator. Users can see the most accurate measure of APY calculations in our site and many more features to be added</p>
+                      <a href="https://axelar.brightlystake.com/" target="_blank" rel="noopener noreferrer" className="know-btn">
+                        Link to site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </Carousel.Item>                          
               <Carousel.Item>
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
