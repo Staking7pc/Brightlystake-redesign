@@ -81,7 +81,7 @@ const Offer = () => {
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
                     <div className="img-box">
-                      <img src={Zeitgeist} alt="Third slide" />
+                      <img src={axelar} alt="Third slide" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
