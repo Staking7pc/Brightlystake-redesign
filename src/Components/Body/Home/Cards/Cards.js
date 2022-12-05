@@ -8,7 +8,7 @@ import marin from "../../../../assets/images/Marlin.png";
 import medibloc from "../../../../assets/images/medibloc.png";
 import kusama from "../../../../assets/images/kusama.png";
 import Cere from "../../../../assets/images/cere.png";
-import cheqd from "../../../../assets/images/cheqd.png";
+import aleph from "../../../../assets/images/aleph.png";
 import xx from "../../../../assets/images/xx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
@@ -29,6 +29,25 @@ const Cards = () => {
             </div>
           </div>
           <div className="row ">
+          <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Aleph Zero</h4>
+                <img className="small" src={aleph}></img>
+                <p>Aleph Zero is an enterprise-ready, peer-reviewed blockchain that's scalable, fast, and dev-friendly</p>
+                <ul>
+                  <li>
+                    <a href="https://alephzero.subscan.io/validator/5EyDRLV7tjkK6bx7LETkpBc6fnwgF2zXYEVLrqMLqMNimEeT" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Axelar</h4>
@@ -48,7 +67,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-             <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Calamari</h4>
                 <img src={calamari}></img>
@@ -162,7 +181,7 @@ const Cards = () => {
                   </li>
                 </ul>
               </div>
-            </div>            
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Moonbeam</h4>
@@ -271,13 +290,13 @@ const Cards = () => {
                   </li>
                   <li>
                     <a href="#" className="btn-two">
-                    More info
+                      More info
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-           
+
 
           </div>
         </div>
