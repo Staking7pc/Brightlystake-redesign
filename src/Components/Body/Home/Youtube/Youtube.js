@@ -68,7 +68,7 @@ const Offer = () => {
                     <div className="text-box">
                       <h5>MORE TO COME</h5>
                       <h2>...</h2>
-                      <p>We are currently hard at work building the next one. If you have any interesting thought/collab opportunity drop us a note to staking7pc@gmail.com</p>
+                      <p>We are currently hard at work building the next one. If you have any interesting thought/collab opportunity drop us a note to contact@brightlystake.com</p>
                       <a href="#" className="know-btn">
                         Thank you!
                       </a>

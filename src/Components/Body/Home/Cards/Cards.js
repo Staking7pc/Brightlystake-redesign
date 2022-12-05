@@ -24,7 +24,7 @@ const Cards = () => {
             <div className="col-lg-12 text-center card-header">
               <h2>We operate in these <span>ecosystems</span> </h2>
               <p>
-                We also run nodes exclusively for orgs, VC and bag holders. Mail us at staking7pc@gmail.com to get a quote
+                We also run nodes exclusively for orgs, VC and bag holders. Mail us at contact@brightlystake.com to get a quote
               </p>
             </div>
           </div>

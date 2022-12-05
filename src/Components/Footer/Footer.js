@@ -15,7 +15,7 @@ const Footer = () => {
               <h2>Contact <span>Brightlystake</span> </h2>
               <ul className="footer-wrapper">
                 <li>
-                  <a href="mailto:Staking7pc@gmail.com" class="footer-link flink">
+                  <a href="mailto:contact@brightlystake.com" class="footer-link flink">
                     <MdEmail />
                   </a>
                 </li>
@@ -42,7 +42,7 @@ const Footer = () => {
               </ul>
 
               <p>
-                official email : staking7pc@gmail.com
+                official email : contact@brightlystake.com
                 Copyright <a href="#">Brightlystake</a> @ 2022                   
               </p>
               
