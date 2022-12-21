@@ -13,6 +13,7 @@ import xx from "../../../../assets/images/xx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
 import zeitgeist from "../../../../assets/images/zeitgeist.png";
+import pylons from "../../../../assets/images/pylons.png";
 
 
 const Cards = () => {
@@ -242,7 +243,7 @@ const Cards = () => {
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Pylons</h4>
-                <img src={polkadex}></img>
+                <img src={pylons}></img>
                 <p>Pylons is the connective tissue for a hyphenated, multi-venue digital world</p>
                 <ul>
                   <li>
