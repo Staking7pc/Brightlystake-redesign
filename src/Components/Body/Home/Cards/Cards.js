@@ -241,6 +241,25 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
+                <h4 className="card-title">Pylons</h4>
+                <img src={polkadex}></img>
+                <p>Pylons is the connective tissue for a hyphenated, multi-venue digital world</p>
+                <ul>
+                  <li>
+                    <a href="https://pylons.explorers.guru/validator/pylovaloper154cvfyu85tduekt60ga8ydc45lc76w7yngh49t" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
                 <h4 className="card-title">Tgrade</h4>
                 <img src={tgrade}></img>
                 <p>Tgrade helps create on-chain financial instruments for self-soverign groups</p>
