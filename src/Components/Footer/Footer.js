@@ -43,7 +43,7 @@ const Footer = () => {
 
               <p>
                 official email : contact@brightlystake.com
-                Copyright <a href="#">Brightlystake</a> @ 2022                   
+                © <a href="#">Brightlystake</a> @ 2023                
               </p>
               
             </div>
