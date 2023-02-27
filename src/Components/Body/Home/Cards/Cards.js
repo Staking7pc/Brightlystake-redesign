@@ -14,6 +14,7 @@ import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
 import zeitgeist from "../../../../assets/images/zeitgeist.png";
 import pylons from "../../../../assets/images/pylons.png";
+import mina from "../../../../assets/images/minaprotocol.png";
 
 
 const Cards = () => {
@@ -134,12 +135,12 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://kusama.subscan.io/waiting/DPyccDy3aecJqo2DTpFUFpnQAeaSEj9hbrpEzUSJnScAXpR" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
+                      Node 1
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="btn-two">
-                      More info
+                    <a href="https://kusama.subscan.io/account/D5EsKZAPK3eeyA43U5p8F4WapBS6y5NThot1mUMErkvVasR" target="_blank" rel="noopener noreferrer" className="btn-two">
+                      Node 2
                     </a>
                   </li>
                 </ul>
@@ -183,6 +184,26 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Mina</h4>
+                <img src={mina}></img>
+                <p>Mina is realizing the user-owned, decentralized web with programmable zero knowledge proofs.</p>
+                <ul>
+                  <li>
+                    <a href="https://minascan.io/mainnet/validator/B62qkgy1rQQmSL91aFeFvrYi9ptqavvgVkUiPZHmy5tZacSupTTCGi6/delegations" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Moonbeam</h4>
