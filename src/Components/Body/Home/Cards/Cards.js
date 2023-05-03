@@ -1,5 +1,10 @@
 import React from "react";
 import axelar from "../../../../assets/images/Axelar.png";
+import archway from "../../../../assets/images/archway.png";
+import sui from "../../../../assets/images/sui.png";
+import blast from "../../../../assets/images/blast.png";
+import celestia from "../../../../assets/images/celestia.png";
+import pica from "../../../../assets/images/pica.png";
 import casper from "../../../../assets/images/Casper.png";
 import calamari from "../../../../assets/images/Calamari.png";
 import moonbeam from "../../../../assets/images/Moonbeam.png";
@@ -52,12 +57,51 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
+                <h4 className="card-title">Archway</h4>
+                <img className="small" src={archway}></img>
+                <p>Archway helps devs to launch dapps globally while earning automatic on-chain rewards.</p>
+                <ul>
+                  <li>
+                    <a href="" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      TBD
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
                 <h4 className="card-title">Axelar</h4>
                 <img className="small" src={axelar}></img>
                 <p>Axelar is a decentralized interoperability network connecting all blockchains</p>
                 <ul>
                   <li>
                     <a href="https://axelarscan.io/validator/axelarvaloper1kkrp9ulfea5klffr7yjk0lat2yuxystgfzg6zu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Blast</h4>
+                <img className="small" src={blast}></img>
+                <p>Decentralized Web3 infrastructure provider by efficiently employing 3rd party node providers</p>
+                <ul>
+                  <li>
+                    <a href="https://blastapi.io/" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
@@ -126,7 +170,25 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Picasso</h4>
+                <img src={pica}></img>
+                <p>Picasso is the infrastructure layer pioneering interoperable DeFi solutions.</p>
+                <ul>
+                  <li>
+                    <a href="https://picasso.subscan.io/account/5tmpSYLWqN4rXkxct7MbZHvs1Enf3StXhYwA1rvnGq59ZHdf" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Kusama</h4>
@@ -188,7 +250,7 @@ const Cards = () => {
               <div className="card-box">
                 <h4 className="card-title">Mina</h4>
                 <img src={mina}></img>
-                <p>Mina is realizing the user-owned, decentralized web with programmable zero knowledge proofs.</p>
+                <p>Mina is realizing the user-owned, decentralized web with programmable zk proofs.</p>
                 <ul>
                   <li>
                     <a href="https://minascan.io/mainnet/validator/B62qkgy1rQQmSL91aFeFvrYi9ptqavvgVkUiPZHmy5tZacSupTTCGi6/delegations" target="_blank" rel="noopener noreferrer" className="btn-one">
@@ -263,12 +325,12 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Pylons</h4>
-                <img src={pylons}></img>
-                <p>Pylons is the connective tissue for a hyphenated, multi-venue digital world</p>
+                <h4 className="card-title">Sui</h4>
+                <img src={sui}></img>
+                <p>Sui makes digital asset ownership fast, private, secure, and accessible to everyone.</p>
                 <ul>
                   <li>
-                    <a href="https://pylons.explorers.guru/validator/pylovaloper154cvfyu85tduekt60ga8ydc45lc76w7yngh49t" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://explorer.sui.io/validator/0x59031a8ba47e04dade3eea9dba0c7ccf8ed3ab9d51d7561add640f687add04ed?network=mainnet" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
