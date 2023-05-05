@@ -55,7 +55,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Archway</h4>
                 <img className="small" src={archway}></img>
@@ -73,7 +73,7 @@ const Cards = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
@@ -151,6 +151,25 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
+            {/* <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Celestia</h4>
+                <img src={celestia}></img>
+                <p>Celestia is a modular consensus and data network, where a blockchain can be deployed easily</p>
+                <ul>
+                  <li>
+                    <a href="https://cspr.live/validator/0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Cere Network</h4>
