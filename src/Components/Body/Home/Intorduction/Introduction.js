@@ -11,7 +11,7 @@ const Introduction = () => {
               <div className="text-part">
                   <h6>Non-custodial Staking Service Providers</h6>
                   <h2>Stake with <span>Confidence</span> </h2>
-                  <p>We provide validator services catering common people and institutions. Say 'Hi' in our socials</p>
+                  <p>We provide validator services catering common people and institutions. Total staked value on us is around $50m</p>
                   <a href="#footer" className="btn btn-green">Contact us</a>
               </div>
             </div> 
