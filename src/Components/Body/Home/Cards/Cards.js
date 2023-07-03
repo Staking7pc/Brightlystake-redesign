@@ -191,25 +191,6 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Picasso</h4>
-                <img src={pica}></img>
-                <p>Picasso is the infrastructure layer pioneering interoperable DeFi solutions.</p>
-                <ul>
-                  <li>
-                    <a href="https://picasso.subscan.io/account/5tmpSYLWqN4rXkxct7MbZHvs1Enf3StXhYwA1rvnGq59ZHdf" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
                 <h4 className="card-title">Kusama</h4>
                 <img src={kusama}></img>
                 <p>Kusama is a scalable network of specialized blockchains built using Substrate </p>
@@ -331,6 +312,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://polkadex.subscan.io/validator/espoqJqnCyPZ6von8c9hSRTSY2iQLHMueUZye1vCdHQAF8xUp" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Picasso</h4>
+                <img src={pica}></img>
+                <p>Picasso is the infrastructure layer pioneering interoperable DeFi solutions.</p>
+                <ul>
+                  <li>
+                    <a href="https://picasso.subscan.io/account/5tmpSYLWqN4rXkxct7MbZHvs1Enf3StXhYwA1rvnGq59ZHdf" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
