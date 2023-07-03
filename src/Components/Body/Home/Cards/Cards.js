@@ -55,15 +55,15 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Archway</h4>
                 <img className="small" src={archway}></img>
                 <p>Archway helps devs to launch dapps globally while earning automatic on-chain rewards.</p>
                 <ul>
                   <li>
-                    <a href="" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      TBD
+                    <a href="https://www.mintscan.io/archway/validators/archwayvaloper14q6gk2fdhym8q58x2at9lqke4chuk46emtyvvn" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
                     </a>
                   </li>
                   <li>
@@ -73,7 +73,7 @@ const Cards = () => {
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
