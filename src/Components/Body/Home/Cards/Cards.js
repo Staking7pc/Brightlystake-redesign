@@ -18,7 +18,8 @@ import xx from "../../../../assets/images/xx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
 import zeitgeist from "../../../../assets/images/zeitgeist.png";
-import pylons from "../../../../assets/images/pylons.png";
+import haqq from "../../../../assets/images/haqq.png";
+import tenet from "../../../../assets/images/tenet.png";
 import mina from "../../../../assets/images/minaprotocol.png";
 
 
@@ -178,6 +179,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://stats.cere.network/validator/5GLVPP25cQSMdP5GNLpL88niXkxyVAXFddZsqGeuGnW1TbyX" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">HAQQ</h4>
+                <img src={haqq}></img>
+                <p>Kusama is a scalable network of specialized blockchains built using Substrate </p>
+                <ul>
+                  <li>
+                    <a href="https://haqq.explorers.guru/validator/haqqvaloper19as88jg6qywfu0uymqsvcmuvqck5nngjjr8q4e" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
@@ -368,7 +388,26 @@ const Cards = () => {
                 <p>Tgrade helps create on-chain financial instruments for self-soverign groups</p>
                 <ul>
                   <li>
-                    <a href="https://tgrade.aneka.io/validators/tgrade154cvfyu85tduekt60ga8ydc45lc76w7yy6935n" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://www.mintscan.io/tgrade/validators/tgrade154cvfyu85tduekt60ga8ydc45lc76w7yy6935n" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">  
+                <h4 className="card-title">Tenet</h4>
+                <img src={tenet}></img>
+                <p>A multichain AI powered web3 wallet that is the gateway to crypto for non-technical users</p>
+                <ul>
+                  <li>
+                    <a href="https://tenet.explorers.guru/validator/tenetvaloper1ce3uljxkzcvql0tu4tqudu0ccvdza0txn8rmpk" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
