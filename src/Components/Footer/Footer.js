@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
+import {BsFillCalendar2EventFill} from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-9 m-auto text-center">
-              <h2>Contact <span>Brightlystake</span> </h2>
+              <h2>Contact <span>Us </span> </h2>
               <ul className="footer-wrapper">
                 <li>
                   <a href="mailto:contact@brightlystake.com" class="footer-link flink">
@@ -27,6 +28,11 @@ const Footer = () => {
                 <li>
                   <a href="https://t.me/Brightlystake" class="footer-link telelink">
                     <FaTelegramPlane />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://calendly.com/contact_brightlystake" class="footer-link youlink">
+                    <BsFillCalendar2EventFill />
                   </a>
                 </li>
                 <li>

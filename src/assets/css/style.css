@@ -79,7 +79,8 @@
 
   #introduction {
     padding: 100px 0px;
-    background-image: url(../images/to-access-bg.png);
+    background-color: rgb(242, 242, 251);
+    /* background-image: url(../images/to-access-bg.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -120,7 +121,7 @@
 
   #cards {
     padding: 100px 0;
-    background-image: url(../images/to-access-bg.png);
+    /* background-image: url(../images/to-access-bg.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -207,7 +208,8 @@
           box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; }
 
   #offer {
-    background-image: url(../images/banner-bg-2.jpg);
+    /* background-image: url(../images/banner-bg-2.jpg); */
+    background-color: rgb(244, 251, 252);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -316,7 +318,7 @@
 
   #blog {
     padding: 150px 0;
-    background-image: url(../images/video-bg.jpg);
+    /* background-image: url(../images/video-bg.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -362,7 +364,7 @@
 
   #footer {
     padding: 100px 0px 50px;
-    background-image: url(../images/c-feature.jpg);
+    /* background-image: url(../images/c-feature.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }

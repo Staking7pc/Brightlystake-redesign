@@ -13,8 +13,8 @@ const Header = () => {
             <Nav className="ms-auto">
               {/* <Nav.Link href="#home">Blog</Nav.Link>
               <Nav.Link href="#link">Validator Nodes</Nav.Link> */}
-              <Nav.Link href="#footer" className="contact-btn">
-                Contact Us
+              <Nav.Link href="https://calendly.com/contact_brightlystake" className="contact-btn">
+                Calendy
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

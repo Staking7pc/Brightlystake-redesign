@@ -3,10 +3,9 @@ import React, { useState } from "react";
 import marlin from "../../../../assets/images/Marlin-big.png";
 import moonbeam from "../../../../assets/images/Moonbeam-big.png";
 import search from "../../../../assets/images/search.png";
-import Zeitgeist from "../../../../assets/images/zeitgeist-big.png";
-import axelar from "../../../../assets/images/Axelar.png";
-import sui from "../../../../assets/images/sui.png";
-import celestia from "../../../../assets/images/celestia.png";
+import axelar from "../../../../assets/images/axelar_big.png";
+import sui from "../../../../assets/images/sui-big.png";
+import celestia from "../../../../assets/images/celestia-big.png";
 
 const Offer = () => {
   const [index, setIndex] = useState(0);
@@ -115,25 +114,7 @@ const Offer = () => {
                   </div>
                 </div>
               </Carousel.Item>
-              <Carousel.Item>
-                <div className="row">
-                  <div className="col-lg-4 col-md-4">
-                    <div className="img-box">
-                      <img src={Zeitgeist} alt="Third slide" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="text-box">
-                      <h5>Zeitgeist</h5>
-                      <h2>COLLATOR STATS</h2>
-                      <p>We have self provided dashboard with historic information on blocks produced each day by collators and list of revokes/decreases from delegators on each collator is also presented for folks to analyse.</p>
-                      <a href="https://collatorstats.brightlystake.com/zeitgeist" target="_blank" rel="noopener noreferrer" className="know-btn">
-                        Link to site
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </Carousel.Item>   
+             
               <Carousel.Item>
                 <div className="row">
                   <div className="col-lg-4 col-md-4">

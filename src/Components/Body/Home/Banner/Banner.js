@@ -15,7 +15,7 @@ const Banner = () => {
               <h2>
                 Welcome To <span>Brightlystake</span>{" "}
               </h2>
-              <h4>Reliable and friendly non-custodial staking service providers</h4>
+              <h4>Reliable. Non-custodial. Validators.</h4>
               <h4>Member of <a href ="https://linktr.ee/unitedbloc" target="_blank" rel="noopener noreferrer">UnitedBloc</a></h4>
               <u className="icons">
                 <li>
