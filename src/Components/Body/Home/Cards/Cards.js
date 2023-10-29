@@ -15,6 +15,7 @@ import kusama from "../../../../assets/images/kusama.png";
 import Cere from "../../../../assets/images/cere.png";
 import aleph from "../../../../assets/images/aleph.png";
 import xx from "../../../../assets/images/xx.png";
+import dydx from "../../../../assets/images/dydx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
 import tgrade from "../../../../assets/images/tgrade.png";
 import zeitgeist from "../../../../assets/images/zeitgeist.png";
@@ -152,14 +153,14 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Celestia</h4>
                 <img src={celestia}></img>
                 <p>Celestia is a modular consensus and data network, where a blockchain can be deployed easily</p>
                 <ul>
                   <li>
-                    <a href="https://cspr.live/validator/0128cb7b72438c54db7810cb552b347dc7c383259d3865b308706014375da11940" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://www.mintscan.io/celestia/validators/" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
@@ -170,7 +171,7 @@ const Cards = () => {
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Cere Network</h4>
@@ -190,6 +191,26 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">DYDX</h4>
+                <img src={dydx}></img>
+                <p>Trade Perpetuals on the most powerful open trading platform with low fees and deep liquidity</p>
+                <ul>
+                  <li>
+                    <a href="https://www.mintscan.io/dydx/validators/dydxvaloper1w62gn5p0fw6y9hx22mgscwfw7rrx4wv4ezslgu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">HAQQ</h4>
