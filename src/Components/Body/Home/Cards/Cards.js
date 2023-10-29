@@ -17,6 +17,7 @@ import aleph from "../../../../assets/images/aleph.png";
 import xx from "../../../../assets/images/xx.png";
 import dydx from "../../../../assets/images/dydx.png";
 import polkadex from "../../../../assets/images/polkadex.png";
+import polkadot from "../../../../assets/images/polkadot.png";
 import tgrade from "../../../../assets/images/tgrade.png";
 import zeitgeist from "../../../../assets/images/zeitgeist.png";
 import haqq from "../../../../assets/images/haqq.png";
@@ -353,6 +354,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://polkadex.subscan.io/validator/espoqJqnCyPZ6von8c9hSRTSY2iQLHMueUZye1vCdHQAF8xUp" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Polkadot</h4>
+                <img src={polkadot}></img>
+                <p>Polkadot enables cross-blockchain transfers of any type of data or asset, not just tokens. </p>
+                <ul>
+                  <li>
+                    <a href="https://polkadot.subscan.io/waiting/1CUBGfKnpHCW1AZbdJGGj1dihn4QNZ623THYs59r6yuPEMq?tab=era" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
