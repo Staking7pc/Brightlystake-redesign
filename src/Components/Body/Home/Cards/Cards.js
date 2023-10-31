@@ -161,13 +161,13 @@ const Cards = () => {
                 <p>Celestia is a modular consensus and data network, where a blockchain can be deployed easily</p>
                 <ul>
                   <li>
-                    <a href="https://www.mintscan.io/celestia/validators/" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://www.mintscan.io/celestia/validators/celestiavaloper19y52qzj4hxw0u68krfptkjlm77cvth8dgum7yu" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="btn-two">
-                      More info
+                    <a href="https://wallet.keplr.app/?modal=staking&chain=celestia&validator_address=celestiavaloper19y52qzj4hxw0u68krfptkjlm77cvth8dgum7yu&step_id=2" target="_blank" rel="noopener noreferrer" className="btn-two">
+                      Stake
                     </a>
                   </li>
                 </ul>
