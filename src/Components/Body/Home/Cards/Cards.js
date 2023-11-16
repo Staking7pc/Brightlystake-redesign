@@ -192,7 +192,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">DYDX</h4>
                 <img src={dydx}></img>
@@ -210,7 +210,7 @@ const Cards = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
