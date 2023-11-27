@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
-import {BsFillCalendar2EventFill} from "react-icons/bs";
+import { BsFillCalendar2EventFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -47,11 +47,12 @@ const Footer = () => {
                 </li>
               </ul>
 
-              <p>
-                official email : contact@brightlystake.com
-                © <a href="#">Brightlystake</a> @ 2023                
-              </p>
-              
+              <div>
+                <h6>Brightlystake Ltd. is a registered entity in BVI.</h6>
+                <h6>Ⓒ 2023 Brightlystake Ltd. All Rights Reserved</h6>
+              </div>
+             
+
             </div>
           </div>
         </div>

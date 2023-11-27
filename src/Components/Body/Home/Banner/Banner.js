@@ -13,7 +13,7 @@ const Banner = () => {
             <div className="col-lg-7 m-auto text-center">
               <img src={Bannerlogo} className="banner-logo"></img>
               <h2>
-                Welcome To <span>Brightlystake</span>{" "}
+                Welcome To <span>Brightlystake Ltd.</span>{" "}
               </h2>
               <h4>Reliable. Non-custodial. Validators.</h4>
               <h4>Member of <a href ="https://linktr.ee/unitedbloc" target="_blank" rel="noopener noreferrer">UnitedBloc</a></h4>
