@@ -23,6 +23,7 @@ import zeitgeist from "../../../../assets/images/zeitgeist.png";
 import haqq from "../../../../assets/images/haqq.png";
 import tenet from "../../../../assets/images/tenet.png";
 import mina from "../../../../assets/images/minaprotocol.png";
+import krest from "../../../../assets/images/krest.png";
 
 
 const Cards = () => {
@@ -39,7 +40,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="row ">
-          <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Aleph Zero</h4>
                 <img className="small" src={aleph}></img>
@@ -233,6 +234,26 @@ const Cards = () => {
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
+                <h4 className="card-title">Krest</h4>
+                <img src={krest}></img>
+                <p>Krest is the world's first and only simulation network for DePIN and the Economy of Things.</p>
+                <ul>
+                  <li>
+                    <a href="https://krest.subscan.io/account/5DLdLmarYsYyQfxqX6iAzfMXPdWTtAGgMbgyrPWrsc2kuVV6" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
                 <h4 className="card-title">Kusama</h4>
                 <img src={kusama}></img>
                 <p>Kusama is a scalable network of specialized blockchains built using Substrate </p>
@@ -288,25 +309,6 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Mina</h4>
-                <img src={mina}></img>
-                <p>Mina is realizing the user-owned, decentralized web with programmable zk proofs.</p>
-                <ul>
-                  <li>
-                    <a href="https://minascan.io/mainnet/validator/B62qkgy1rQQmSL91aFeFvrYi9ptqavvgVkUiPZHmy5tZacSupTTCGi6/delegations" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
@@ -442,7 +444,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">  
+              <div className="card-box">
                 <h4 className="card-title">Tenet</h4>
                 <img src={tenet}></img>
                 <p>A multichain AI powered web3 wallet that is the gateway to crypto for non-technical users</p>
