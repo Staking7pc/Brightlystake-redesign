@@ -24,6 +24,7 @@ import haqq from "../../../../assets/images/haqq.png";
 import tenet from "../../../../assets/images/tenet.png";
 import mina from "../../../../assets/images/minaprotocol.png";
 import krest from "../../../../assets/images/krest.png";
+import dym from "../../../../assets/images/dym.png";
 
 
 const Cards = () => {
@@ -193,25 +194,25 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">DYDX</h4>
-                <img src={dydx}></img>
-                <p>Trade Perpetuals on the most powerful open trading platform with low fees and deep liquidity</p>
+                <h4 className="card-title">DYM</h4>
+                <img src={dym}></img>
+                <p>Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.</p>
                 <ul>
                   <li>
-                    <a href="https://www.mintscan.io/dydx/validators/dydxvaloper1w62gn5p0fw6y9hx22mgscwfw7rrx4wv4ezslgu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://dym.fyi/validator/dymvalcons1gmv8yhkhnyyftvt6506emzjg5zyzqja04njnqg" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="btn-two">
-                      More info
+                    <a href="https://portal.dymension.xyz/dymension/staking" target="_blank" rel="noopener noreferrer" className="btn-two">
+                      Stake here
                     </a>
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
