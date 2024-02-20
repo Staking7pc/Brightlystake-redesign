@@ -25,6 +25,7 @@ import tenet from "../../../../assets/images/tenet.png";
 import mina from "../../../../assets/images/minaprotocol.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
+import bits from "../../../../assets/images/bitscrunch.png";
 
 
 const Cards = () => {
@@ -88,6 +89,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://axelarscan.io/validator/axelarvaloper1kkrp9ulfea5klffr7yjk0lat2yuxystgfzg6zu" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">BitsCrunch</h4>
+                <img className="small" src={bits}></img>
+                <p> bitsCrunch is an AI-powered, decentralized NFT data platform for devs to build reliable dapps</p>
+                <ul>
+                  <li>
+                    <a href="https://app.bitscrunch.com/profile/0xcae9c5ae3387093a79c413ac1bddcd34f991ea62/overview" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
