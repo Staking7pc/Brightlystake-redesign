@@ -26,6 +26,7 @@ import mina from "../../../../assets/images/minaprotocol.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
 import bits from "../../../../assets/images/bitscrunch.png";
+import crossfi from "../../../../assets/images/crossfi.png";
 
 
 const Cards = () => {
@@ -203,6 +204,25 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://stats.cere.network/validator/5GLVPP25cQSMdP5GNLpL88niXkxyVAXFddZsqGeuGnW1TbyX" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="btn-two">
+                      More info
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Cross Finance</h4>
+                <img src={crossfi}></img>
+                <p>Cross Finance is a next generation digital ecosystem offering cutting-edge payment solutions.</p>
+                <ul>
+                  <li>
+                    <a href="https://test.xfiscan.com/validators/mxvaloper1wqr5er58pgxzcc54y6fvaf6xns30gwmsqwa00r" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
