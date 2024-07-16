@@ -1,7 +1,6 @@
 import React from "react";
-import Bootstrap from "bootstrap";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-import footer from '../Footer/Footer'
+import { Navbar, Container, Nav } from "react-bootstrap";
+
 const Header = () => {
   return (
     <div>
@@ -13,7 +12,7 @@ const Header = () => {
             <Nav className="ms-auto">
               {/* <Nav.Link href="#home">Blog</Nav.Link>
               <Nav.Link href="#link">Validator Nodes</Nav.Link> */}
-              <Nav.Link href="https://calendly.com/contact_brightlystake" className="contact-btn">
+              <Nav.Link href="https://calendly.com/contact_brightlystake" className="contact-btn" target="_blank" rel="noopener noreferrer">
                 Calendy
               </Nav.Link>
             </Nav>

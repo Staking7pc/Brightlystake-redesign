@@ -3,9 +3,7 @@ import Banner from "./Banner/Banner";
 import Cards from "./Cards/Cards";
 import Introduction from "./Intorduction/Introduction";
 import Offer from "./Offer/Offer";
-import Youtube from "./Youtube/Youtube";
-import Video from "./Video/Video";
-import Blog from "./Blog/Blog";
+
 
 const Home = () => {
   return (

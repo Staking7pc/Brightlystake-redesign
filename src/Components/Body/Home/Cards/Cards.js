@@ -38,7 +38,9 @@ const Cards = () => {
             <div className="col-lg-12 text-center card-header">
               <h2>We operate in these <span>ecosystems</span> </h2>
               <p>
-                Reach out to us for any queries https://linktr.ee/brightlystake
+                Reach out to us for any queries                 <a href="https://linktr.ee/brightlystake" target="_blank" rel="noopener noreferrer">
+                  https://linktr.ee/brightlystake
+                </a>
               </p>
             </div>
           </div>
@@ -54,11 +56,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -73,11 +71,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -93,11 +87,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -112,11 +102,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -131,11 +117,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -150,11 +132,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -169,11 +147,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -188,11 +162,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="https://wallet.keplr.app/?modal=staking&chain=celestia&validator_address=celestiavaloper19y52qzj4hxw0u68krfptkjlm77cvth8dgum7yu&step_id=2" target="_blank" rel="noopener noreferrer" className="btn-two">
-                      Stake
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -207,30 +177,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Cross Finance</h4>
-                <img src={crossfi}></img>
-                <p>Cross Finance is a next generation digital ecosystem offering cutting-edge payment solutions.</p>
-                <ul>
-                  <li>
-                    <a href="https://test.xfiscan.com/validators/mxvaloper1wqr5er58pgxzcc54y6fvaf6xns30gwmsqwa00r" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -243,11 +190,6 @@ const Cards = () => {
                   <li>
                     <a href="https://dym.fyi/validator/dymvalcons1gmv8yhkhnyyftvt6506emzjg5zyzqja04njnqg" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://portal.dymension.xyz/dymension/staking" target="_blank" rel="noopener noreferrer" className="btn-two">
-                      Stake here
                     </a>
                   </li>
                 </ul>
@@ -265,11 +207,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -284,11 +222,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -323,11 +257,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -342,11 +272,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -362,11 +288,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -381,11 +303,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -400,11 +318,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -419,11 +333,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -438,11 +348,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -457,11 +363,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -476,11 +378,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -495,11 +393,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -514,11 +408,7 @@ const Cards = () => {
                       Explorer
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="btn-two">
-                      More info
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div> */}
@@ -534,7 +424,7 @@ const Cards = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="btn-two">
+                    <a href="#" target="_blank" rel="noopener noreferrer"  className="btn-two">
                       More info
                     </a>
                   </li>
