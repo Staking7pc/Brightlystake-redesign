@@ -45,7 +45,7 @@ const Footer = () => {
 
             <div>
               <h6>Brightlystake Ltd. is a registered entity in BVI.</h6>
-              <h6>Ⓒ 2023 Brightlystake Ltd. All Rights Reserved</h6>
+              <h6>Ⓒ 2024 Brightlystake Ltd. All Rights Reserved</h6>
             </div>
           </div>
         </div>
