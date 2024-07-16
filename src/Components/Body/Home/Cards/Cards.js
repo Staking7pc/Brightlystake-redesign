@@ -2,30 +2,17 @@ import React from "react";
 import axelar from "../../../../assets/images/Axelar.png";
 import archway from "../../../../assets/images/archway.png";
 import sui from "../../../../assets/images/sui.png";
-import blast from "../../../../assets/images/blast.png";
 import celestia from "../../../../assets/images/celestia.png";
-import pica from "../../../../assets/images/pica.png";
 import casper from "../../../../assets/images/Casper.png";
-import calamari from "../../../../assets/images/Calamari.png";
 import moonbeam from "../../../../assets/images/Moonbeam.png";
 import moonriver from "../../../../assets/images/moonriver.png";
 import marin from "../../../../assets/images/Marlin.png";
-import medibloc from "../../../../assets/images/medibloc.png";
 import kusama from "../../../../assets/images/kusama.png";
-import Cere from "../../../../assets/images/cere.png";
 import aleph from "../../../../assets/images/aleph.png";
-import xx from "../../../../assets/images/xx.png";
-import dydx from "../../../../assets/images/dydx.png";
-import polkadex from "../../../../assets/images/polkadex.png";
 import polkadot from "../../../../assets/images/polkadot.png";
-import tgrade from "../../../../assets/images/tgrade.png";
-import zeitgeist from "../../../../assets/images/zeitgeist.png";
 import haqq from "../../../../assets/images/haqq.png";
-import tenet from "../../../../assets/images/tenet.png";
-import mina from "../../../../assets/images/minaprotocol.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
-import bits from "../../../../assets/images/bitscrunch.png";
 import click from "../../../../assets/images/click.png";
 
 
@@ -91,21 +78,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">BitsCrunch</h4>
-                <img className="small" src={bits}></img>
-                <p> bitsCrunch is an AI-powered, decentralized NFT data platform for devs to build reliable dapps</p>
-                <ul>
-                  <li>
-                    <a href="https://app.bitscrunch.com/profile/0xcae9c5ae3387093a79c413ac1bddcd34f991ea62/overview" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
+            
            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Blast</h4>
@@ -261,21 +234,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Medibloc</h4>
-                <img src={medibloc}></img>
-                <p>Medibloc is a digital healthcare company aims to build a patient-centric healthcare data platform</p>
-                <ul>
-                  <li>
-                    <a href="https://www.mintscan.io/medibloc/validators/panaceavaloper1w3ze2ulad0jq7zcps7kdwsadhlh9mc27nqt8du" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
+           
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
@@ -416,7 +375,7 @@ const Cards = () => {
               <div className="card-box">
                 <h4 className="card-title">More</h4>
                 <img src={click}></img>
-                <p>We also operate in many other ecosystems.</p>
+                <p>We also operate in few other ecosystems which is present on the next page</p>
                 <ul>
                   <li>
                     <a href="/More" target="_blank" rel="noopener noreferrer" className="btn-one">
