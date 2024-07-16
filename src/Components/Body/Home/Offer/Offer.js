@@ -20,25 +20,7 @@ const Offer = () => {
         <div className="container">
           <div className="row">
             <Carousel activeIndex={index} onSelect={handleSelect}>
-              <Carousel.Item>
-                <div className="row">
-                  <div className="col-lg-4 col-md-4">
-                    <div className="img-box">
-                      <img src={axelar} alt="Axelar" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="text-box">
-                      <h5>AXELAR</h5>
-                      <h2>VALIDATOR STATS</h2>
-                      <p>We have a dashboard explaining how staking works in Axelar and the various factors that affect the returns for a delegator. Users can see the most accurate measure of APY calculations on our site and many more features to be added.</p>
-                      <a href="https://axelar.brightlystake.com/" target="_blank" rel="noopener noreferrer" className="know-btn">
-                        Link to site
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </Carousel.Item>
+              
               <Carousel.Item>
                 <div className="row">
                   <div className="col-lg-4 col-md-4">
@@ -100,6 +82,25 @@ const Offer = () => {
                 <div className="row">
                   <div className="col-lg-4 col-md-4">
                     <div className="img-box">
+                      <img src={axelar} alt="Axelar" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6">
+                    <div className="text-box">
+                      <h5>AXELAR</h5>
+                      <h2>VALIDATOR STATS</h2>
+                      <p>We have a dashboard explaining how staking works in Axelar and the various factors that affect the returns for a delegator. Users can see the most accurate measure of APY calculations on our site and many more features to be added.</p>
+                      <a href="https://axelar.brightlystake.com/" target="_blank" rel="noopener noreferrer" className="know-btn">
+                        Link to site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </Carousel.Item>
+              {/* <Carousel.Item>
+                <div className="row">
+                  <div className="col-lg-4 col-md-4">
+                    <div className="img-box">
                       <img src={sui} alt="Sui" />
                     </div>
                   </div>
@@ -114,7 +115,7 @@ const Offer = () => {
                     </div>
                   </div>
                 </div>
-              </Carousel.Item>
+              </Carousel.Item> */}
               <Carousel.Item>
                 <div className="row">
                   <div className="col-lg-4 col-md-4">

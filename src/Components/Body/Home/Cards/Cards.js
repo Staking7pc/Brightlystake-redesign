@@ -26,7 +26,7 @@ import mina from "../../../../assets/images/minaprotocol.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
 import bits from "../../../../assets/images/bitscrunch.png";
-import crossfi from "../../../../assets/images/crossfi.png";
+import click from "../../../../assets/images/click.png";
 
 
 const Cards = () => {
@@ -106,7 +106,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+           {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Blast</h4>
                 <img className="small" src={blast}></img>
@@ -135,7 +135,7 @@ const Cards = () => {
 
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Casper</h4>
@@ -166,7 +166,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Cere Network</h4>
                 <img src={Cere}></img>
@@ -180,7 +180,7 @@ const Cards = () => {
 
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">DYM</h4>
@@ -307,7 +307,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Polkadex</h4>
                 <img src={polkadex}></img>
@@ -321,7 +321,7 @@ const Cards = () => {
 
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Polkadot</h4>
@@ -337,7 +337,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Picasso</h4>
                 <img src={pica}></img>
@@ -351,7 +351,7 @@ const Cards = () => {
 
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Sui</h4>
@@ -367,7 +367,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Tgrade</h4>
                 <img src={tgrade}></img>
@@ -397,7 +397,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">XX network</h4>
                 <img src={xx}></img>
@@ -414,23 +414,18 @@ const Cards = () => {
             </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Zeitgeist</h4>
-                <img src={zeitgeist}></img>
-                <p>Zeitgeist is an evolving blockchain for prediction markets and futarchy.</p>
+                <h4 className="card-title">More</h4>
+                <img src={click}></img>
+                <p>We also operate in many other ecosystems.</p>
                 <ul>
                   <li>
-                    <a href="https://zeitgeist.subscan.io/account/dE2sXU3pwfeaDvJY13wo5WSRmt4wqWMZSsu7T5dEQdqUZcFr3" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer"  className="btn-two">
-                      More info
+                    <a href="/More" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      More
                     </a>
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> 
 
 
           </div>
