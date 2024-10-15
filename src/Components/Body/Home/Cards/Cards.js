@@ -47,7 +47,7 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
+            {/* <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Archway</h4>
                 <img className="small" src={archway}></img>
@@ -61,7 +61,7 @@ const Cards = () => {
 
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
