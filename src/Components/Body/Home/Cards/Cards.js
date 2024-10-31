@@ -1,6 +1,6 @@
 import React from "react";
 import axelar from "../../../../assets/images/Axelar.png";
-import archway from "../../../../assets/images/archway.png";
+import avail from "../../../../assets/images/avail.png";
 import sui from "../../../../assets/images/sui.png";
 import celestia from "../../../../assets/images/celestia.png";
 import casper from "../../../../assets/images/Casper.png";
@@ -47,21 +47,21 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Archway</h4>
-                <img className="small" src={archway}></img>
-                <p>Archway helps devs to launch dapps globally while earning automatic on-chain rewards.</p>
+                <h4 className="card-title">Avail</h4>
+                <img className="small" src={avail}></img>
+                <p>Avail is the modular blockchain base layer for next-generation, trust-minimized applications.</p>
                 <ul>
                   <li>
-                    <a href="https://www.mintscan.io/archway/validators/archwayvaloper14q6gk2fdhym8q58x2at9lqke4chuk46emtyvvn" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://avail.subscan.io/validator/5FEWETswvmp118NDj83iWpp3Kkb95xxnHVbCz2xwc3BeSdc9" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
 
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
