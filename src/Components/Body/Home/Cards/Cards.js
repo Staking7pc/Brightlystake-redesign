@@ -10,6 +10,7 @@ import marin from "../../../../assets/images/Marlin.png";
 import kusama from "../../../../assets/images/kusama.png";
 import aleph from "../../../../assets/images/aleph.png";
 import polkadot from "../../../../assets/images/polkadot.png";
+import peaq from "../../../../assets/images/peaq.png";
 import haqq from "../../../../assets/images/haqq.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
@@ -266,21 +267,21 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Polkadex</h4>
-                <img src={polkadex}></img>
-                <p>Polkadex is a peer to peer orderbook-based exchange for the DeFi ecosystem built on Substrate </p>
+                <h4 className="card-title">Peaq</h4>
+                <img src={peaq}></img>
+                <p>Peaq powers the Machine Economy, made up of real-world Web3 apps (DePINs) and devices that run on them. </p>
                 <ul>
                   <li>
-                    <a href="https://polkadex.subscan.io/validator/espoqJqnCyPZ6von8c9hSRTSY2iQLHMueUZye1vCdHQAF8xUp" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://peaq.subscan.io/account/5EfAdDpkFxJUtFCfSyUaPSxWr5x3hM36TTa4fX9h6VCECoR4" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
 
                 </ul>
               </div>
-            </div> */}
+            </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Polkadot</h4>
