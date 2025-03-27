@@ -15,6 +15,8 @@ import haqq from "../../../../assets/images/haqq.png";
 import krest from "../../../../assets/images/krest.png";
 import dym from "../../../../assets/images/dym.png";
 import click from "../../../../assets/images/click.png";
+import walrus from "../../../../assets/images/walrus.jpg";
+import bera from "../../../../assets/images/Bera.png";
 
 
 const Cards = () => {
@@ -79,37 +81,20 @@ const Cards = () => {
                 </ul>
               </div>
             </div>
-            
-           {/* <div className="col-lg-3 col-md-6 text-center">
+            <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
-                <h4 className="card-title">Blast</h4>
-                <img className="small" src={blast}></img>
-                <p>Decentralized Web3 infrastructure provider by efficiently employing 3rd party node providers</p>
+                <h4 className="card-title">Berachain</h4>
+                <img src={bera}></img>
+                <p>Berachain uses Proof of Liquidity consensus mechanism to align liquidity and security </p>
                 <ul>
                   <li>
-                    <a href="https://blastapi.io/" target="_blank" rel="noopener noreferrer" className="btn-one">
+                    <a href="https://hub.berachain.com/validators/0x964dd0632d0ed772dd0b5a269e9809be5b742df0ad4463552c7b51beef6baf6021360db60b0428ff1c4c38661c02b283" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
-
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="card-box">
-                <h4 className="card-title">Calamari</h4>
-                <img src={calamari}></img>
-                <p>Calamari Network is a private layer built for the entire Kusama ecosystem</p>
-                <ul>
-                  <li>
-                    <a href="https://sparta.calamari.systems/dmx7NaUig7rdhwTJcnj6VPFaeou4KsvTqkMTcvHz25LcZtNrT" target="_blank" rel="noopener noreferrer" className="btn-one">
-                      Explorer
-                    </a>
-                  </li>
-
-                </ul>
-              </div>
-            </div> */}
             <div className="col-lg-3 col-md-6 text-center">
               <div className="card-box">
                 <h4 className="card-title">Casper</h4>
@@ -320,6 +305,21 @@ const Cards = () => {
                 <ul>
                   <li>
                     <a href="https://explorer.sui.io/validator/0x59031a8ba47e04dade3eea9dba0c7ccf8ed3ab9d51d7561add640f687add04ed?network=mainnet" target="_blank" rel="noopener noreferrer" className="btn-one">
+                      Explorer
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 text-center">
+              <div className="card-box">
+                <h4 className="card-title">Walrus</h4>
+                <img className="small" src={walrus}></img>
+                <p>Walrus is a decentralized storage platform enabling publish, deliver, and program data onchain.</p>
+                <ul>
+                  <li>
+                    <a href="https://walruscan.com/mainnet/operator/0x54bbd7a6fa94be11ae18aa9ed41ce7f282d981fc73060c14f69b0a35ce70f5ea" target="_blank" rel="noopener noreferrer" className="btn-one">
                       Explorer
                     </a>
                   </li>
